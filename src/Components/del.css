@@ -1,0 +1,10 @@
+.Del{
+    /* border:0.001rem solid white; */
+   position: absolute;
+   right:0px;
+}
+.Edit{
+    /* border: 0.1rem solid white ; */
+    position: absolute;
+   right:4rem;
+}

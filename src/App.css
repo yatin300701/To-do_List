@@ -1,0 +1,78 @@
+*{
+  background-color: rgb(0, 0, 0);
+  color: azure;
+  font-size: 62.5%;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.to-do-container{
+  border: 0.5rem solid white;
+  padding: 3rem;
+  width: 65rem;
+  border-radius: 5%;
+}
+.top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 5rem;
+}
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+input[type=text]{
+  width: 30rem;
+  min-height: 3rem;
+  color: rgb(255, 255, 255,0.5);
+  border: 0.3rem solid white;
+}
+input[type=text]:focus{
+  color: rgb(255, 255, 255,1);
+}
+.Search{
+  width: 8rem;
+  height: 3.8rem;
+  background-color: white;
+  border: 0.01rem solid white;
+  color: black;
+  font-weight: 800;
+  cursor: pointer;
+}
+.down{
+  margin-top: 4rem;
+  font-size: 5.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.list-container{
+  margin: 0rem 0;
+  display: flex;
+  list-style-type: none;
+}
+.list{
+  margin: 0.3rem;
+  display: flex;
+  min-width: 60rem;
+  min-height: 3.3rem;
+  flex:1;
+  border: 0.3rem solid white;
+  list-style: none;
+  position: relative;
+  max-width: 60rem;
+  overflow-x:hidden;
+  overflow-y: hidden;
+
+}
